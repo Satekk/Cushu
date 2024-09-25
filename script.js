@@ -21,7 +21,9 @@ function showMessage(response) {
 
     // Update text content and hide name message
     document.getElementById("question").textContent =
-      "Ese Boton Es solo Decoracion";
+      "Ese boton esta ahi solo para decorar😉🍷";
+      document.getElementById("question2").textContent =
+      "No lo pienses tanto 🤫";
     document.getElementById("name").style.display = "none";
 
     // Optional: You can also add a timeout to reset the position after a few seconds
@@ -34,7 +36,9 @@ function showMessage(response) {
 
     // Update text content, show message, and change image source to "dance.gif"
     const yesMessage = document.getElementById("question");
-    yesMessage.textContent = "LESGOOO te veo el 14 sabrosota😘😘";
+    yesMessage.textContent = "SIIIUUUU Ahora a manquear jun.....conquistar el mundo.😏🙂‍↕️";
+    const yesMessage2 = document.getElementById("question2");
+    yesMessage2.textContent = " ";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
     document.getElementsByClassName("image")[0].src = "images/dance.gif";
